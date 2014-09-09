@@ -1,6 +1,4 @@
-# MDwiki
-
-[About](index.md)
+[Inicio](index.md)
 
 [Docs]()
 
@@ -28,11 +26,10 @@
 [Forum](forum.md)
 
 
-[gimmick:theme (inverse: false)](spacelab)
+[gimmick:theme (inverse: false)](readable)
 
-[gimmick:ThemeChooser](Change theme)
 
-[gimmick:forkmeongithub](http://github.com/Dynalon/mdwiki/)
+
 
 <!-- counter pixel for counting visitors -->
 <!-- <img src="http://stats.markdown.io/mdwiki_info.gif" style="display:none;"/> -->
