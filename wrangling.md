@@ -1,28 +1,9 @@
-Introducción - Civic Hack Night de Visualización con Bosque Urbano México.
-=====
-
-Hoy estaremos trabajando con conceptos de visualización, en el marco de los datos que han hecho disponible los miembros de Bosque Urbano México. Analizaremos la información y luego desarrollaremos dos visualizaciones: Una que explorará el comportamiento de los usuarios y otra que detallará las características disponibles de los árboles. 
+Obtención y preparación de los datos.
+============
 
 
-Sobre el dataset - Bosque Urbano México
---------
-
-Bosque Urbano México es una organización basada en Monterrey que tiene 4 objetivos principales: 
-
-  * Crear un inventario de árboles urbanos
-  * Compilar un catálogo de especies nativas
-  * Crear una plataforma de participación urbana
-  * Un cuantificador de beneficios ambientales
-
-El esfuerzo de esta organización está almacenado en la base de datos que accederemos hoy, que contiene el lugar, especie y usuario que registra cada uno de los árboles que tenían almacenados a mediados de agosto del 2014. Usaremos el poder de la visualización de los datos para conocer más de los usuarios, y conocer más de los árboles que están instalados. 
-
-Toda esta ṕágina está en github, por lo que si necesitas bajar todo de golpe o usar este proyecto de base, no dudes en forkearnos (:
-
-De la visualización
--------
-
-Los expertos de visualizacion, mediante pruebas a usuarios, han probado que hace una visualización memorable o fácil de entender. Encontraron que una gráfica que es tradicional (Gráfica de barras, gráficas de disperción, entre otras) es fácil de entender pero fácil de olvidar. Por otro lado, una gráfica menos tradicional, como algo más metafórico o visualmente más atractivo, puede ser más dificil de entender, pero será más fácil de recordar. 
-
+Obtención y preparación de los datos.
+------------
 
 * Webspace (or a web server that can serve static files)
 * Any modern Webbrowser

@@ -2,11 +2,13 @@
 
 [Viz. Exploratoria](explore.md)
 
-
 [Viz. Comunicativa](communicate.md)
+
+[Viz. Comunicativa](wrangling.md)
 
 
 [gimmick:theme (inverse: false)](readable)
+
 
 
 <!-- counter pixel for counting visitors -->
