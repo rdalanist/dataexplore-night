@@ -1,73 +1,28 @@
 Obtención y preparación de los datos.
 ============
 
-
-Obtención y preparación de los datos.
+¿Qué necesito?
 ------------
 
-* Webspace (or a web server that can serve static files)
-* Any modern Webbrowser
-* [mdwiki.html][download] file
+Para este paso no necesitas descargar nada, pues el enfoque de esta hack night estará en hacer visualizaciones con los datos. Si quieres trabajar con ellos, te recomendamos descargar el software [Openrefine](http://openrefine.org/), programa que usaremos para limpiar el dataset. [Este sitio](http://openrefine.org/download.html) contiene la descarga y los pasos para correrlo en cada uno de los sistemas operativos.
 
-How does it work?
+
+Descargar la base de datos desde datamx.io
+------------
+
+La gente de BUM nos ha hecho el favor de proveernos el .csv de los árboles registrados en la zona metropolitana. Para descargalos realiza lo siguiente.
+
+* Entra a [www.datamx.io](www.datamx.io)
+* Busca árboles en la barra de búsqueda, o encuéntralo en la lista debajo.
+* Da click en el título de la base de datos: Árboles registrados en la Zona Metropolitana de Monterrey
+* Estarás en el listado de recursos. Da click en el recurso de nombre "Árboles de Zona Metropolitana de ..."
+* Te llevará a una previsualización de los datos. Ahí, da click en el botón descargar. 
+![Vista en datamx de los datos](images/datamxbum.png)
+
+Trabajo con los datos
 -----------------
 
-Just drop the `mdwiki.html` available from [the download page][download] along with your markdown files on a webspace somewhere. You can pass any url (relative to the `mdwiki.html` file) to mdwiki after the hashbang `#!`:
+Los datos que tiene BUM en línea son de bastante alta calidad, ya que no necesitan muchas transformaciones para ser útiles. Con el flow que propuse, yo encontré necesarios los siguientes pasos para sacarle más jugo:
 
-    http://www.example.com/mdwiki.html#!myfile.md
-
-If you rename the `mdwiki.html` into `index.html`, you can omit the filename on most webservers:
-
-    http://www.example.com/#!myfile.md
-
-MDwiki will load a file called `index.md` from the same directory as the index.html by default, so if you use an `index.md` file as entry point, all you have to do is enter your domain name:
-
-    http://example.com/
-
-Note: There are lots more features over regular Markdown, check out the [quickstart tutorial][quickstart].
-
-- - - -
-
-Credits / Technologies
-----------------------
-
-MDwiki would not exist if it weren't for those great pieces of software:
-
-  * [marked][marked]
-  * [jQuery][jQuery]
-  * [Bootstrap][bootstrap]
-  * [Bootswatch][bootswatch]
-  * [colorbox][colorbox]
-  * [highlightjs][highlightjs]
-
-
-<iframe src="http://bl.ocks.org/mbostock/raw/4061502/0a200ddf998aa75dfdb1ff32e16b680a15e5cb01/" marginwidth="0" marginheight="0" scrolling="no" width="600" height="400" frameborder="0"></iframe>
-
-
-
-MDwiki is created by Timo Dörr. Follow me to get updates on MDwiki! [Follow @timodoerr](http://www.twitter.com/timodoerr).
-
-Cute kitten images provided by the great [placekitten.com] service.
-
-  [download]: download.md
-  [quickstart]: quickstart.md
-  [gimmicks]: gimmicks.md
-
-  [markdown]: http://daringfireball.net/projects/markdown/
-  [jQuery]: http://www.jquery.org
-  [bootstrap]: http://www.getbootstrap.com
-  [bootswatch]: http://www.bootswatch.com
-  [marked]: https://github.com/chjj/marked
-  [colorbox]: http://www.jacklmoore.com/colorbox/
-  [gists]: https://gist.github.com/
-  [maps]: http://maps.google.com/
-  [highlightjs]: http://softwaremaniacs.org/soft/highlight/en/‎
-  [placekitten.com]: http://www.placekitten.com/
-
-License
--------
-
-MDwiki is licensed under [GNU GPLv3 with additional terms applied][license].
-
-  [license]: https://github.com/Dynalon/mdwiki/blob/master/LICENSE.txt
-
+* Convertir las columnas en fechas a formato de fecha.
+* Usar el API de Bing maps para conseguir el json que contiene las coordenadas de la dirección. Google maps es más preciso, pero solo permite 5000 requests (Nuestra base de datos tiene casi 50,000). 
