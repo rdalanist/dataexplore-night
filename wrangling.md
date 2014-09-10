@@ -1,6 +1,12 @@
 Obtención y preparación de los datos.
 ============
 
+Datos con Geolocalización
+------------
+
+Click aqui para descargar los datos c/geolocalizacion los puedes encontrar aqui.
+
+
 ¿Qué necesito?
 ------------
 
