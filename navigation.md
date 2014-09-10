@@ -1,11 +1,10 @@
 [Introducción](index.md)
 
-[Viz. Exploratoria](explore.md)
+[Preparación de los Datos](wrangling.md)
 
-[Viz. Comunicativa](communicate.md)
+[Vizualización Exploratoria](explore.md)
 
-[Viz. Comunicativa](wrangling.md)
-
+[Vizualización Comunicativa](communicate.md)
 
 [gimmick:theme (inverse: false)](readable)
 
