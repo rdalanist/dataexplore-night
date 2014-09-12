@@ -1,6 +1,6 @@
-Obtención y preparación de los datos.
+Foro de Discusión
 ============
 
-Foros
+¡Deja tu comentario!
 ------------
 [gimmick:Disqus](forobum)

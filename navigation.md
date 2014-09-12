@@ -6,7 +6,7 @@
 
 [Vizualización Comunicativa](communicate.md)
 
-[Foros](forums.md)
+[Foro de Discusión](forums.md)
 
 [gimmick:theme (inverse: false)](readable)
 
