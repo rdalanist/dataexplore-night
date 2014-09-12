@@ -6,6 +6,8 @@
 
 [Vizualización Comunicativa](communicate.md)
 
+[Foros](forums.md)
+
 [gimmick:theme (inverse: false)](readable)
 
 
