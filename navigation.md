@@ -1,10 +1,8 @@
 [Introducción](index.md)
 
-[Preparación de los Datos](wrangling.md)
+[Ejemplo de scrapping](example.md)
 
-[Vizualización Exploratoria](explore.md)
-
-[Vizualización Comunicativa](communicate.md)
+[Proyectos Propuestos](cases.md)
 
 [Foro de Discusión](forums.md)
 
