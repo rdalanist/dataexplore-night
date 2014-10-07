@@ -1,7 +1,7 @@
 Introducción al Hacking Cívico desde Datos Abiertos
 =====
 
-¡Bienvenido a esta noche de Hacking! Esta noche trabajaremos cosas muy interesantes en relación a la pobreza y a la educación, específicamente la superior.
+¡Bienvenido a esta noche de Hacking! Esta noche trabajaremos cosas muy interesantes en relación a la pobreza y a la educació,N.
 
 Si es la primera vez que vienes, y que escuchas la frase hacking cívico, seguro te llama la atención el uso de la palabra Hacking. Aquí usamos la definición:
 
