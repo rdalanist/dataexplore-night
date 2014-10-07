@@ -60,7 +60,7 @@ Definitivamente este dataset de pobreza tiene un potencial muy grande para conoc
 Entonces, ¿Qué hacemos?
 ---------
 
-Trabajaremos los primeros pasos del proceso la ciencia de datos en esta ocasión: Exploraremos los datos para formular una pregunta, luego procesaremos la información y la exploraremos para encontrar la respuesta. Adelantaremos lo más que podamos la visualización de la información: Pero sería increíble que nos lo llevaramos para colaborar en algo que permaneza. Si les gustaría cruzar los datos de pobreza con otros que tu conozcas o algunos que estén en las páginas de datos abiertos que te compartimos antes, ¡Adelante!
+Trabajaremos los primeros pasos del proceso la ciencia de datos en esta ocasión: Exploraremos los datos para formular una pregunta, luego procesaremos la información y la exploraremos para encontrar la respuesta. Adelantaremos lo más que podamos la visualización de la información, pero sería increíble que nos lo llevaramos para colaborar en algo que trascienda a esta noche. 
 
 Te invitamos a que veas la sección de recursos para encontrar herramientas para los pasos de la ciencia de datos. No te preocupes si no sabes programar y los datos están en csv. Deberían de abrir sin problema en tu Excel/LibreOffice.
 
