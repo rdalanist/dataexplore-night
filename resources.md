@@ -1,76 +1,45 @@
-Ejemplo de Scrapping
+Recursos de Data Science
 ============
 
-Introducción
+Esta es una lista comprimida de las herramientas que puedes usar. Nos puedes preguntar en persona por más información y alrededor de todas hay una comunidad bien grande que puedes consultar. Ayúdanos mejorando esta lista: En persona, por correo a [ricardo@codeandomexico.org](ricardo@codeandomexico.org) o haciéndonos un pull request
+
+
+Exploración y manejo de los Datos
 ------------
+*	Notepad/[Sublime Text](http://www.sublimetext.com/): Como primer paso, intenta abrir las bases de datos con un lector de texto plano, de forma que puedas conocer su estructura.
+*	Excel/[LibreOffice Calc](https://es.libreoffice.org/) (Excel OpenSource): Está medio dificil cuando las bases son grandes, pero un excelente lugar para empezar. ¡Cuidado cuando tus archivos son de más de 10 megas! 
+*	[OpenRefine](http://openrefine.org/): Mágico, pero con una curva de aprendizaje más pesada. Te lo recomiendo Ampliamente. Google subió unos [videos tutoriales en este sitio que te recomiendo veas para empezar](https://www.youtube.com/watch?v=B70J_H_zAWM).
+*	R/[Rstudio](http://www.rstudio.com/): Si te gusta la estadística, es un excelente programa con el que puedes trabajar los datos. Está medio dificil, pero también es mágico cuando ya lo aprendiste. Un excelente recurso para aprender es el curso de ["Exploratory Data Analysis with R](https://www.udacity.com/course/ud651) en Udacity.
+* Python, iPython y iPython Notebook: Otro excelente recurso es el lenguaje de programación de python ([xkcd:Python](http://xkcd.com/353/)) y el recurso de ipython. Una manera muy sencilla de instalarlo es usando la distribución [Anaconda](http://continuum.io/downloads) 
 
-Hay una anécdota con la base de datos que scrappeamos con el código que te mostraré. La gente del Instituto Mexicano de la Competitividad, [IMCO](www.imco.org.mx) nos recomendó que scrappearamos el sitio:
+Visualización de los Datos
+-------------
 
-[http://201.175.44.226/SNRSPD/Basica/SNRSPDresultadosbasica/ConsultaPublica.aspx](http://201.175.44.226/SNRSPD/Basica/SNRSPDresultadosbasica/ConsultaPublica.aspx)
+Existen dos tipos de visualizaciones de datos, las exploratorias y las comunicativas. Las primeras son eficientes, rápidas de entender. Las otras son llamativas, más complicadas pero más memorables. La mayoría  Algunos otros recursos para visualización son:
 
-!["Sitio de la SEP"](images/resbas.png)
+Software/Páginas de internet para visualización:
+*	[ManyEyes](http://www-958.ibm.com/software/analytics/manyeyes/)
+*	[Datawrapper](https://datawrapper.de/)
+*	[Tableau Public](http://www.tableausoftware.com/public/) 
 
-Como verás, es un sitio que parece inofensivo. En el se muestran los resultados de los exámenes del los maestros de educación básica. Un Menú "dinámico" que muestra los estados de la republica, la convocatoría y el examen. Es una página práctica.
+Páginas para crear infografías: 
+*	[easel.ly](http://www.easel.ly/)
+*	[Infogr.am](http://infogr.am/)
+*	[Piktochart.com](http://piktochart.com/)
 
-Si no quieres hacer análisis de información.
+Librerías de Javascript.
+*	[Highcharts](http://www.highcharts.com/)
+*	[chart.js](http://www.chartjs.org/)
+*	[D3.js](http://d3js.org/) 
 
-Si te quieres enterar como les fue a **Todos** los maestros. Es imposible si no scrappeas la información: Tendrías que irte en 32 estados, a 2 convocatorias, con muchísimas opciones. Por lo tanto, nos embarcamos en el proceso que te muestro a continuación para sacarle los datos. Dándo una fast forward: Un día después de publicar estos datos en la plataforma [www.datamx.io](www.datamx.io) nos avisan que Sonia del Valle, una reportera del Reforma, está interesada en los datos.
+Cursos de Ciencia de Datos
+-------------
 
-Una semana después:
+Hay varios sitios donde puedes encontrar cursos completos que hablan con bastante profundidad sobre la ciencia de datos. ¡Te los recomiendo muchísimo! Si usas este u otros recursos, mándame un correo a ricardo@codeandomexico.org ¡Está bien chido conocer como va creciendo la comunidad de data science en México!
 
-!["Sitio de la SEP"](images/reforma.png)
-
-Este es el impacto que puede tener el abrir información ¡Por eso te animo a que aprendas a hacerlo! Esta es solo una aplicación, definitivamente en lo comercial hay un potencial increíble.
-
-
-Nuestra solución
-------------
-
-Nosotros usamos un código en Python que puedes encontrar en github [en esta dirección](https://github.com/CodeandoMexico/los-scrapers/tree/master/script/sep)
-
-En el, podrás ver las diferentes etapas del scrapping. Perdonarás el código, que todavía tiene que refinarse bastante.
-
-Para replicarlo, depende de tu sistema operativo.
-
-*	Si tienes linux, Instala porfavor el ambiente de Python. Te recomiendo que instales además iPython; Que tiene una funcionalidad increíble que es el notebook.
-*	Si tienes Mac, te recomiendo esta liga [para empezar](http://joernhees.de/blog/2014/02/25/scientific-python-on-mac-os-x-10-9-with-homebrew/)
-*	Si tienes Windows, te recomiendo el paquete [Anaconda](http://continuum.io/downloads). También hay para Linux y Mac, pero en esos sistemas prefiero una instalación natural. Para instalar librerías que no trae, te fallaré; Pero no debe de ser muy dificil (:
-
-El código
-------------
-
-Usamos varías librerías en el código. Resaltan:
-
-*	dryscrape - Que nos permite simular un navegador web (Recuerdas la definición de scrapping según Wikipedia), con tal de obtener la página que nos interesa.
-*	beautifulsoup - Que nos permite explorar el código de una página de una manera organizada, explorándolo como listas y diccionarios de acuerdo a los componentes del mismo.
-* 	csv - Que nos permite guardar de manera muy sencilla los archivos 
-
-Como vimos antes, el scrapping tiene varias etapas. Cada una de ellas está representada por una función muy específica del código:
-
-*	Obtener el DOM - Getbody
-*	Extraer el área de interés - Scrappetable
-*	Ordenar la información y presentarla - Printcsv
-
-Para obtener los valores que necesitamos para cada tabla nos metimos al source de la página y los sacamos a mano (: para otra versión, hice algo más dinámico. ¿Cómo lo harías tú?
-
-Yo se que mi código no es el mejor ¡Se aceptan contribuciones!
-
-Walkthrough
-------------
-
-El Walkthrough lo sacaremos en vivo. En caliente :D
-
-Recomendaciones
-------------
-
-Al final, los datos que abrimos los queremos poner en una plataforma donde se puedan consumir. Sin querer meter gol, ahí esta [www.datamx.io](www.datamx.io). Sin embargo, vale la pena recordar algunas reglas para tomar la información que viene de estas fuentes para que esté facilmente accesible. 
-
-Los mandamientos de la información para Datamx son los siguientes:
-
-*	Convertir tu archivo a CSV.
-*	La primera fila debe tener nombre de las columnas.
-*	Los nombres de la columna no deben de tener espacio, usa el guión bajo de preferencia.
-*	Procura que sean nombres de columna de máximo 20 caracteres.
-*	No dejar celdas en blanco.
-*	Trata de no poner comas en los valores que tienes en tu CSV, aún y cuando estén adentro de comillas!
-*	Usa Encoding UTF-8.
+*	Udacity: Hay un montón de cursos bien chidos en [la línea de data science de esta página](https://www.udacity.com/courses#!/data-science).
+*	Coursera: La especialización de [data science de la Johns Hopkins](https://www.coursera.org/specialization/jhudatascience/1/courses) es una visión completa del proceso, El curso de [data science de UWashington](https://class.coursera.org/datasci-002) es un excelente lugar para empezar si eres dev pero te interesan las herramientas de data science y el Curso de [Mining Massive Datasets de Stanford](https://class.coursera.org/mmds-001) también tiene varios recursos para trabajar con grandes datos (big data pa' los gringos).
+*	Harvard: Los cursos abiertos de [data science](http://cs109.github.io/2014/) y de [visualización](http://www.cs171.org/2015/index.html) ( Mi preferido es el [del 2014](http://www.cs171.org/2014/#!index.md)) son cosa del otro mundo. El primero se parece mucho al de UWashington, pero si no tienes tanta experiencia programando es un lugar bien fregón para empezar. El segundo es que si eres más *Artsy*  conozcas los fundamentos para comunicar información de manera visual. Ambos tienen un archivo de videos que puedes encontrar en sus páginas
+*	[EDx](https://www.edx.org) y [MIT OCW](http://ocw.mit.edu/index.htm): Montón de recursos, no sé ni por donde empezar.
+*	[The Open Source Data Science Masters](http://datasciencemasters.org/):  Un excelente compendio de más recursos para aprenderle a la ciencia de datos. 
+∫
