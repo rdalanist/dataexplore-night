@@ -1,10 +1,7 @@
-[Introducción](index.md)
+[Hack Night](index.md)
 
-[Ejemplo de scrapping](example.md)
+[Recursos](resources.md)
 
-[Proyectos Propuestos](cases.md)
-
-[Foro de Discusión](forums.md)
 
 [gimmick:theme (inverse: false)](readable)
 
