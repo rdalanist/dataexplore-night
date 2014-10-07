@@ -5,12 +5,11 @@ Introducción al Hacking Cívico desde Datos Abiertos
 
 Si es la primera vez que vienes, y que escuchas la frase hacking cívico, seguro te llama la atención el uso de la palabra Hacking. Aquí usamos la definición:
 
-* Hacking: Es una solución astuta a un problema complicado
-“Hackear” es cambiar algo de manera extraordinaria*
+**Hacking**: Es una solución astuta a un problema complicado “Hackear” es cambiar algo de manera extraordinaria.
 
 Y,
 
-* Hacking Cívico: Ingenieros, tecnólogos, ciudadanos, científicos, diseñadores, artistas, educadores, estudiantes, emprendedores. Cualquiera dispuesto a colaborar con otros para crear, construir e inventar soluciones públicas, código y tecnología para resolver retos relevantes a nuestras comunidades, ciudades, estados y país.*
+**Hacking Cívico**: Ingenieros, tecnólogos, ciudadanos, científicos, diseñadores, artistas, educadores, estudiantes, emprendedores. Cualquiera dispuesto a colaborar con otros para crear, construir e inventar soluciones públicas, código y tecnología para resolver retos relevantes a nuestras comunidades, ciudades, estados y país.
 
 Estamos aquí para hacer un cambio extraordinario en nuestra localidad usando tecnología. Como primer paso, aunque suene cursi, Vamos a conocernos como equipos. Te pido de favor que platiques con el grupo que has formado, y conozcan más los intereses de cada uno de ustedes: Esto ayudará a que sepamos más lo que nos gusta y, aquí entre nos, nos hará más eficientes y efectivos para hacer cosas bien chidas hoy.
 
