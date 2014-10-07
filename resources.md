@@ -6,6 +6,7 @@ Esta es una lista comprimida de las herramientas que puedes usar. Nos puedes pre
 
 Exploración y manejo de los Datos
 ------------
+
 * Notepad/[Sublime Text](http://www.sublimetext.com/): Como primer paso, intenta abrir las bases de datos con un lector de texto plano, de forma que puedas conocer su estructura.
 * Excel/[LibreOffice Calc](https://es.libreoffice.org/) (Excel OpenSource): Está medio dificil cuando las bases son grandes, pero un excelente lugar para empezar. ¡Cuidado cuando tus archivos son de más de 10 megas! 
 * [OpenRefine](http://openrefine.org/): Mágico, pero con una curva de aprendizaje más pesada. Te lo recomiendo Ampliamente. Google subió unos [videos tutoriales en este sitio que te recomiendo veas para empezar](https://www.youtube.com/watch?v=B70J_H_zAWM).
@@ -18,16 +19,19 @@ Visualización de los Datos
 Existen dos tipos de visualizaciones de datos, las exploratorias y las comunicativas. Las primeras son eficientes, rápidas de entender. Las otras son llamativas, más complicadas pero más memorables. La mayoría  Algunos otros recursos para visualización son:
 
 Software/Páginas de internet para visualización:
-* [ManyEyes](http://www-958.ibm.com/software/analytics/manyeyes/)
-* [Datawrapper](https://datawrapper.de/)
+
+*	[ManyEyes](http://www-958.ibm.com/software/analytics/manyeyes/)
+*[Datawrapper](https://datawrapper.de/)
 * [Tableau Public](http://www.tableausoftware.com/public/) 
 
 Páginas para crear infografías: 
+
 * [easel.ly](http://www.easel.ly/)
 * [Infogr.am](http://infogr.am/)
 * [Piktochart.com](http://piktochart.com/)
 
 Librerías de Javascript.
+
 * [Highcharts](http://www.highcharts.com/)
 * [chart.js](http://www.chartjs.org/)
 * [D3.js](http://d3js.org/) 
