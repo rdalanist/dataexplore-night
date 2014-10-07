@@ -1,7 +1,7 @@
 Introducción al Hacking Cívico desde Datos Abiertos
 =====
 
-¡Bienvenido a esta noche de Hacking! Esta noche trabajaremos cosas muy interesantes en relación a la pobreza y a la educació,N.
+¡Bienvenido a esta noche de Hacking! Esta noche trabajaremos cosas muy interesantes en relación a la pobreza en nuestro país.
 
 Si es la primera vez que vienes, y que escuchas la frase hacking cívico, seguro te llama la atención el uso de la palabra Hacking. Aquí usamos la definición:
 
@@ -47,11 +47,19 @@ El diccionario de datos, es decir, el significado de cada columna, está localiz
 [Diccionario de Datos -  Indicadores de pobreza](http://www.coneval.gob.mx/Informes/Pobreza/Datos_abiertos/Indicadores_municipales_sabana_DIC.txt)
 
 
-**Subtema recomendado**
+**Un subtema recomendado**
 Una base de datos bien interesante para cruzar es la cantidad de estudiantes matriculados en cada institución de educación superior del País. ¿Cómo se relacionará el lugar donde hay una universidad, con los indicadores de pobreza? Notarán que no está la dirección la institución en la base de datos por lo que no es tan sencillo encontrar el municipio en el que se encuentra, ¿Cómo la encontrarían?
 
 Esta base la puedes encontrar aquí:
 [Matrícula por Institución y Entidad federativa](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
+
+**Find your own topic***
+
+Definitivamente este dataset de pobreza tiene un potencial muy grande para conocer que es lo que pasa en nuestro país. ¿Porqué no buscas otra base de datos que estaría interesante cruzar? ¿Qué tal alguna que hable de población? ¿De fenómenos naturales?
+
+
+Entonces, ¿Qué hacemos?
+---------
 
 Trabajaremos los primeros pasos del proceso la ciencia de datos en esta ocasión: Exploraremos los datos para formular una pregunta, luego procesaremos la información y la exploraremos para encontrar la respuesta. Adelantaremos lo más que podamos la visualización de la información: Pero sería increíble que nos lo llevaramos para colaborar en algo que permaneza. Si les gustaría cruzar los datos de pobreza con otros que tu conozcas o algunos que estén en las páginas de datos abiertos que te compartimos antes, ¡Adelante!
 
