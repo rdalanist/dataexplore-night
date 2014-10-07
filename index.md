@@ -56,10 +56,10 @@ Puedes encontrar estos mismos datos, pero con acceso por medio de una API en la 
 Una base de datos bien interesante para cruzar es la cantidad de estudiantes matriculados en cada institución de educación superior del País. ¿Cómo se relacionará el lugar donde hay una universidad, con los indicadores de pobreza? Notarán que no está la dirección la institución en la base de datos por lo que no es tan sencillo encontrar el municipio en el que se encuentra, ¿Cómo la encontrarían?
 
 Esta base la puedes encontrar aquí:
-[Matrícula por Institución y Entidad federativa - datamx.io](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
+[Matrícula por Institución y Entidad federativa - datos.gob.mx](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
 
 Y su contraparte en datamx.io con acceso API:
-[http://datamx.io/dataset/indicadores-de-pobreza-pobreza-por-ingresos-rezago-social-y-gini-2010-municipal](http://datamx.io/dataset/indicadores-de-pobreza-pobreza-por-ingresos-rezago-social-y-gini-2010-municipal)
+[Matrícula por Institución y Entidad federativa - datamx.io](http://datamx.io/dataset/indicadores-de-pobreza-pobreza-por-ingresos-rezago-social-y-gini-2010-municipal)
 
 **Find your own topic**
 
@@ -99,7 +99,7 @@ Por favor, incluye el link a su proyecto en el pequeño foro que tenemos al fina
 
 Te agradecemos un montón que vinieras el día de hoy. Nos encantaría saber que es lo que más te gustó y que no te gustó de este evento ¡Queremos mejorar! 
 
-Aquí la forma para que nos dejes tu opinión: [hhttp://bit.ly/1CS4SK7](http://bit.ly/1CS4SK7)
+Aquí la forma para que nos dejes tu opinión: [http://bit.ly/1CS4SK7](http://bit.ly/1CS4SK7)
 
 Muchísimas gracias, y nos vemos bien pronto ( Y más pronto si haces un repo de git (:)
 
