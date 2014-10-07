@@ -77,7 +77,7 @@ Por favor, incluye el link a su proyecto en el pequeño foro que tenemos al fina
 
 Te agradecemos un montón que vinieras el día de hoy. Nos encantaría saber que es lo que más te gustó y que no te gustó de este evento ¡Queremos mejorar! 
 
-Aquí la forma para que nos dejes tu opinión: [http://bit.ly/1uWvzMv](http://bit.ly/1uWvzMv)
+Aquí la forma para que nos dejes tu opinión: [hhttp://bit.ly/1CS4SK7](http://bit.ly/1CS4SK7)
 
 Muchísimas gracias, y nos vemos bien pronto ( Y más pronto si haces un repo de git (:)
 
