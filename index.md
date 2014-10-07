@@ -47,12 +47,19 @@ Esta base la puedes encontrar en el vínculo de aquí abajo:
 El diccionario de datos, es decir, el significado de cada columna, está localizado en el siguiente vínculo:
 [Diccionario de Datos -  Indicadores de pobreza](http://www.coneval.gob.mx/Informes/Pobreza/Datos_abiertos/Indicadores_municipales_sabana_DIC.txt)
 
+Puedes encontrar estos mismos datos, pero con acceso por medio de una API en la página de www.datamx.io
+[Indicadores de pobreza - datamx.io](http://datamx.io/dataset/matricula-por-institucion-y-entidad-federativa/resource/ffc1323a-bf46-4d9d-86a8-237315c2036e)
+
+
 
 **Un subtema recomendado**
 Una base de datos bien interesante para cruzar es la cantidad de estudiantes matriculados en cada institución de educación superior del País. ¿Cómo se relacionará el lugar donde hay una universidad, con los indicadores de pobreza? Notarán que no está la dirección la institución en la base de datos por lo que no es tan sencillo encontrar el municipio en el que se encuentra, ¿Cómo la encontrarían?
 
 Esta base la puedes encontrar aquí:
-[Matrícula por Institución y Entidad federativa](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
+[Matrícula por Institución y Entidad federativa - datamx.io](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
+
+Y su contraparte en datamx.io con acceso API:
+[http://datamx.io/dataset/indicadores-de-pobreza-pobreza-por-ingresos-rezago-social-y-gini-2010-municipal](http://datamx.io/dataset/indicadores-de-pobreza-pobreza-por-ingresos-rezago-social-y-gini-2010-municipal)
 
 **Find your own topic**
 
