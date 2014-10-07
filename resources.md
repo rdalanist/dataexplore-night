@@ -21,8 +21,8 @@ Existen dos tipos de visualizaciones de datos, las exploratorias y las comunicat
 Software/Páginas de internet para visualización:
 
 *	[ManyEyes](http://www-958.ibm.com/software/analytics/manyeyes/)
-*[Datawrapper](https://datawrapper.de/)
-* [Tableau Public](http://www.tableausoftware.com/public/) 
+*	[Datawrapper](https://datawrapper.de/)
+*	[Tableau Public](http://www.tableausoftware.com/public/) 
 
 Páginas para crear infografías: 
 
