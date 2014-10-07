@@ -53,7 +53,7 @@ Una base de datos bien interesante para cruzar es la cantidad de estudiantes mat
 Esta base la puedes encontrar aquí:
 [Matrícula por Institución y Entidad federativa](http://catalogo.datos.gob.mx/dataset/matricula-por-institucion-y-entidad-federativa)
 
-**Find your own topic***
+**Find your own topic**
 
 Definitivamente este dataset de pobreza tiene un potencial muy grande para conocer que es lo que pasa en nuestro país. ¿Porqué no buscas otra base de datos que estaría interesante cruzar? ¿Qué tal alguna que hable de población? ¿De fenómenos naturales?
 
